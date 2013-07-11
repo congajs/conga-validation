@@ -1,0 +1,27 @@
+{
+  "name": "conga-validation",
+  "version": "0.0.1",
+  "description": "Conga.js bundle which adds object validation",
+  "directories": {
+    "test": "test"
+  },
+  "main": "",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/congajs/conga-validation.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Marc Roulias",
+  "license": "MIT",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+  },
+  "readmeFilename": "README.md"
+}
