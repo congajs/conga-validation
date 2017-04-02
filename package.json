@@ -1,6 +1,6 @@
 {
   "name": "conga-validation",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Conga.js bundle which adds object validation",
   "directories": {
     "test": "test"
