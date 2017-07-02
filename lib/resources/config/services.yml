@@ -5,7 +5,6 @@ parameters:
 services:
 
     validator:
-        constructor: %conga.validator.constructor%
+        constructor: "%conga.validator.constructor%"
         tags:
             - { name: kernel.event, event: kernel.compile, method: onKernelCompile, priority: 64 }
-
