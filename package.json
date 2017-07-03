@@ -1,6 +1,6 @@
 {
-  "name": "conga-validation",
-  "version": "0.0.5",
+  "name": "@conga/framework-validation",
+  "version": "2.0.0-dev",
   "description": "Conga.js bundle which adds object validation",
   "directories": {
     "test": "test"
@@ -13,21 +13,20 @@
     "type": "git",
     "url": "git://github.com/congajs/conga-validation.git"
   },
-  "keywords": [
-
-  ],
+  "keywords": [],
   "author": "Marc Roulias",
   "contributors": [
-		{
-			"name": "Anthony Matarazzo" ,
-			"email": "email@anthonymatarazzo.com"
-		}
+    {
+      "name": "Anthony Matarazzo",
+      "email": "email@anthonymatarazzo.com"
+    }
   ],
   "license": "MIT",
   "dependencies": {
-    "conga-annotations": "1.0.0"
+    "@conga/annotations": "1.0.0"
   },
   "devDependencies": {
+    "jasmine": "^2.6.0"
   },
   "readmeFilename": "README.md"
 }

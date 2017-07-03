@@ -1,6 +1,6 @@
 parameters:
 
-    conga.validator.constructor: conga-validation:validator
+    conga.validator.constructor: conga-validation:Validator
 
 services:
 
