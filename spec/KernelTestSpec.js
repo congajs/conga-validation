@@ -73,9 +73,7 @@ describe("Kernel", () => {
         const model = new Length();
         model.name = 'a';
 
-        validator.validate(model).then(() => {
-            console.log('ok');
-        }).catch((err) => {
+        validator.validate(model).catch((err) => {
             expect(err[0]).toEqual({ message: 'This value must be at least 2 characters long', property: 'name' });
             done();
         });
