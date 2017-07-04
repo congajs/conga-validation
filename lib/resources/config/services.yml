@@ -1,10 +1,15 @@
 parameters:
 
-    conga.validator.constructor: conga-validation:Validator
+    conga.validator.constructor: "@conga/framework-validation:Validator"
+    conga.validator.manager.constructor: "@conga/framework-validation:ValidationManager"
 
 services:
 
-    validator:
-        constructor: "%conga.validator.constructor%"
+    conga.validator.manager:
+        constructor: "%conga.validator.manager.constructor%"
         tags:
             - { name: kernel.event, event: kernel.compile, method: onKernelCompile, priority: 64 }
+
+    validator:
+        constructor: "%conga.validator.constructor%"
+        arguments: ["@service_container"]

@@ -7,7 +7,7 @@
   },
   "main": "",
   "scripts": {
-    "test": "mocha test/*.js"
+    "test": "./node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +23,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@conga/annotations": "1.0.0"
+    "@conga/annotations": "1.0.0",
+    "recursive-readdir-sync": "^1.0.6"
   },
   "devDependencies": {
-    "jasmine": "^2.6.0"
+    "@conga/framework": "latest",
+    "jasmine": "^2.6.0",
+    "lodash": "^4.17.4"
   },
   "readmeFilename": "README.md"
 }

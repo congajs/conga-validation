@@ -1,1 +1,4 @@
 validation:
+
+    # the namespaced lookup paths for annotated classes
+    paths:
