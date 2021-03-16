@@ -1,6 +1,6 @@
 {
   "name": "@conga/framework-validation",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Conga.js bundle which adds object validation",
   "directories": {
     "test": "test"
@@ -23,13 +23,13 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@conga/annotations": "1.0.0",
+    "@conga/annotations": "1.0.4",
     "recursive-readdir-sync": "^1.0.6"
   },
   "devDependencies": {
-    "@conga/framework": "^2.0.0",
-    "jasmine": "^2.6.0",
-    "lodash": "^4.17.4"
+    "@conga/framework": "^2.1.2",
+    "jasmine": "^3.6.4",
+    "lodash": "^4.17.21"
   },
   "readmeFilename": "README.md"
 }
