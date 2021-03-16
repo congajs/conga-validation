@@ -1,4 +1,4 @@
-conga-validation
+conga-validation [![Build Status](https://secure.travis-ci.org/congajs/conga-validation.png)](http://travis-ci.org/congajs/conga-validation)
 ================
 
 Overview
